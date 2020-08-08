@@ -38,9 +38,9 @@
 	<a href="#-about">About</a> |
 	<a href="#-layout">Layout</a> | 
  	<a href="#-setup">Setup</a> | 
-  <a href="#-resources">Resources</a>
-  <a href="#-todo">TODO</a>
-  <a href="#-contributions">Contributions</a> | 
+  	<a href="#-resources">Resources</a> |
+  	<a href="#-todo">TODO</a> |
+  	<a href="#-contributions">Contributions</a> | 
  	<a href="#-author">Author</a> | 
  	<a href="#user-content--license">License</a>
 </p>
@@ -147,7 +147,7 @@ We used the following resources on this project:
 
 ## Author
 
- <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/60109015?s=460&u=941726645c23518f8cbcb9fca84ea7becc0508c5&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/63118219?s=460&u=58cda92df811710a1deb1dcd1b60e32524e0380c&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Vinícius Rios Fuck</b></sub>
  <br />
