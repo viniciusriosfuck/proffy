@@ -34,7 +34,7 @@
                 </div>
             </header>
             <main>
-                <form action="" id="create-class">
+                <form action="/save-classes" id="create-class" method="POST"> <!-- default method="GET"; "POST" hidden data -->
                     <fieldset>
                         <legend>Seus dados</legend>
                         <div class="input-block">
@@ -61,9 +61,9 @@
                             <label for="subject">Matéria</label>
                             <select name="subject" id="subject">
                                 <option>Selecione uma opção</option>
-                                {%for subject in subjects%}
+                                {% for subject in subjects %}
                                     <option value="{{loop.index}}">{{subject}}</option>
-                                {%endfor%} 
+                                {% endfor %} 
                             </select>
                         </div>
 
@@ -71,7 +71,7 @@
                             <label for="cost">Custo da sua hora/aula
                                 <small>(R$)</small>
                             </label>
-                            <input name="cost" type="cost" id="cost" type="number">  
+                            <input name="cost" id="cost" type="number">  
                             <!-- name to receive the data -->
                         </div>
                     </fieldset>
@@ -84,11 +84,11 @@
                         <div class="schedule-item">
                             <div class="select-block">
                                 <label for="weekday">Dia da semana</label>
-                                <select name="weekday[]" required> <!-- [] mais de um valor-->
+                                <select name="weekday[]" id="weekday" required> <!-- [] mais de um valor-->
                                     <option value="">Selecione uma opção</option>
-                                    {%for weekday in weekdays%}
+                                    {% for weekday in weekdays %}
                                     <option value="{{loop.index}}">{{weekday}}</option>
-                                    {%endfor%}
+                                    {% endfor %}
                                 </select>                            
                             </div>
                        

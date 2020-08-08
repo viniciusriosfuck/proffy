@@ -1,0 +1,120 @@
+visual studio code
+ctrl d: replace all 
+ctrl p: open file same project folder
+plugin SQLITE
+
+porta padrão :80
+http://127.0.0.1/
+localhost
+
+json (javascript object notation)  "" aspas duplas
+
+
+----------------------------------------------------
+bash
+node -v 
+npm -v (gereciamento de dependencias/pacotes)
+npm init -y (node package management)
+npm install express (biblioteca)
+node src/server.js
+
+npm install nodemon -D (monitoramento do node, refresh server when update js)
+npm run dev
+rs (restart)
+
+npm install nunjucks   template engine (html "interpreta" backend)
+npm install sqlite-async (SQL)
+
+
+
+----------------------------------------------------
+
+js
+
+await ("multiple then") require async before function declaration
+
+``  template literals
+
+forEach elementwise
+map return new grouped array
+
+
+// require("express")()
+// .get("/", (req, res) => { //() anonym function,  => arrow function
+//     return res.send("Hi from NLW")
+// })
+// .get("/study", (req, res) => {
+//     return res.send("Page study 2")
+// })
+// console.log(__dirname)
+// const title = "Hi friend"
+
+
+// return res.sendFile(__dirname + "/views/index.html")
+
+// return res.render("study.html", {proffys, title: "Hi from Nunjucks"})
+// return res.render("study.html", {proffys, title})
+// return res.render("study.html", {diego: proffys[0]})
+// console.log(req.query)
+
+----------------------------------------------------
+
+
+function pageGiveClasses(req, res) {
+    const data = req.query
+    // console.log(data)
+
+    // {}  ->  []
+    const isnotEmpty = Object.keys(data).length > 0
+
+
+    // add data to proffy
+    // if (data) {  // is empty, but exists
+    if (isnotEmpty) {
+        // console.log("inside if")
+
+        data.subject = getSubject(data.subject)
+        // data.weekday = getWeekdays(data.weekday)
+
+
+
+        proffys.push(data)
+        
+        return res.redirect("/study")
+    }
+    // else  (if data is Empty)
+    return res.render("give-classes.html", {subjects, weekdays})
+}
+
+
+----------------------------------------------------
+html
+<!-- loop.index: 1,2,3,...   /  loop.index0: 0,1,2,...  --> 
+<option value="1">Artes</option>
+<option value="2">Biologia</option>
+<option value="3">Ciências</option>
+<option value="4">Educação física</option>
+<option value="5">Física</option>
+<option value="6">Geografia</option>
+<option value="7">História</option>
+<option value="8">Matemática</option>
+<option value="9">Português</option>
+<option value="10">Química</option>
+<!-- <option value="4">Educação física selected</option> -->
+<!-- <option value="4" {{"selected" if filters.subject == "4"}}>Educação física</option> -->
+<!-- <option value="4" {{"selected" if filters.subject == "4"}}>Educação física</option> --> 
+
+<option value="0">Domingo</option>
+<option value="1">Segunda-feira</option>
+<option value="2">Terça-feira</option>
+<option value="3">Quarta-feira</option>
+<option value="4">Quinta-feira</option>
+<option value="5">Sexta-feira</option>
+<option value="6">Sábado</option>
+
+
+
+ <!-- <button type="button">
+     <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+ </button> -->
+
