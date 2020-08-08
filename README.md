@@ -1,7 +1,14 @@
 <!-- LOGO  -->
-<h1 align="center" >
-    <img alt="Proffy Logo" src="/public/images/logo.png" />
+<h1 align="center">
+	<rect width="100%" height="100%" fill="red"/>
+    <img alt="Proffy Logo" src="/public/images/logo.png"/>  <!-- .png -->
 </h1>
+
+<!-- https://raw.githubusercontent.com/viniciusriosfuck/proffy/master/public/images/logo.svg -->
+
+
+
+
 
 <!-- SLOGAN -->
 <h3 align="center">
@@ -35,14 +42,14 @@
 </h4>
 
 <p align="center">
-	<a href="#-about">About</a> |
-	<a href="#-layout">Layout</a> | 
- 	<a href="#-setup">Setup</a> | 
-  <a href="#-resources">Resources</a>
-  <a href="#-todo">TODO</a>
-  <a href="#-contributions">Contributions</a> | 
- 	<a href="#-author">Author</a> | 
- 	<a href="#user-content--license">License</a>
+	<a href="#about">About</a> |
+	<a href="#layout">Layout</a> | 
+ 	<a href="#setup">Setup</a> | 
+  	<a href="#resources">Resources</a> |
+  	<a href="#todo">TODO</a> |
+  	<a href="#contributions">Contributions</a> | 
+ 	<a href="#author">Author</a> | 
+ 	<a href="#license">License</a>
 </p>
 
 
@@ -81,7 +88,7 @@ Developed during the **NLW - Next Level Week#02** offered by [Rocketseat](https:
 ### Recommended softwares
 
 1. Install [Git](https://git-scm.com)
-2. Use a code/text editor, the used was [VSCode](https://code.visualstudio.com/)
+2. Use a code/text editor, the used one was the [VSCode](https://code.visualstudio.com/)
 
 
 
@@ -113,8 +120,8 @@ $ npm start
 
 We used the following resources on this project:
 
-1. **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)** - Hypertext Markup Language - structure the pages
-2. **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)** - Cascading Style Sheets - to format the pages
+1. **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)** - Hypertext Markup Language - structure the pages
+2. **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)** - Cascading Style Sheets - to format the pages
 3. **[JavaScript](https://www.javascript.com)** - programming language used to interact with the pages
  1. **[NodeJS](https://nodejs.org/en/)** - to run js scripts
  2. **[Nunjucks](https://github.com/mozilla/nunjucks)** - templating engine - to add code chunks to html files (v: 3.2.2)
@@ -153,7 +160,7 @@ We used the following resources on this project:
 
 ## Author
 
- <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/60109015?s=460&u=941726645c23518f8cbcb9fca84ea7becc0508c5&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/63118219?s=460&u=58cda92df811710a1deb1dcd1b60e32524e0380c&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Vinícius Rios Fuck</b></sub>
  <br />
