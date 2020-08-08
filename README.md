@@ -56,17 +56,23 @@ Developed during the **NLW - Next Level Week#02** offered by [Rocketseat](https:
 
 ## Layout
 
-###  Student consult page
-
-<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Student consult page" src="/public/images/study-page.png" width="100%">
-</p> -->
+###  Index page
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	<img alt="Index page" src="/public/images/index-page-ex.png" width="100%">
+</p>
 
 ###  Teacher register page
 
-<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Teacher register page" src="/public/images/give-classes-fullpage.png" width="100%">
-</p> -->
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	<img alt="Teacher register page" src="/public/images/register-page-ex.png" width="100%">
+</p>
+
+###  Student consult page
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	<img alt="Student consult page" src="/public/images/consult-page-ex.png" width="100%">
+</p>
+
 
 ---
 
